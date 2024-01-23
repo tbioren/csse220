@@ -1,57 +1,48 @@
 # HWLinearLightsOut
 
 ## Overview:
-- This exercise will provide more practice with event based programming in Java Swing
-- There is an individual part and a paired part (details are below)
+- This exercise will provide more practice with event based programming and Java Swing.
+- This assignment is broken into two parts; an individual and paired part (details are below).
+### Documentation requirements
+**For all files you modify in this project**, you must provide Javadocs.
+- Use the provided *BankAccount.java* file for guidance with class-level Javadocs and method-level Javadocs.
+- Use standard java comments for parts of your code whose functionality is non-obvious. 
+(If a grader needs to debug your code, it's a good idea to make it as easy for them as possible.)
+- Give self-documenting variable and method names.
 
-## Rubric:
-To earn a 100% for the assignment you must do the following 3 tasks:
+## Part 1 - To be done individually
 
-1. (30% of grade) *Part 1 - Ball/Strike Counter* you must add the ball and strike buttons and handle clicks on the buttons correctly (see details below)
-2. (60% of grade) *Part 2 - Linear Lights Out* you must allow the user to choose the number of buttons to be displayed and correctly handle clicks on all of the app's buttons (see details below)
-3. (10% of grade) Javadoc comments are required for all your *.java* files
-<br> -- See the *Documentation Requirements* section below
+### Overview
+This is designed to prepare you for part 2 of this assignment. You will create a program to count "balls" and "strikes" in a 
+baseball game.
 
+### Part 1 TODO
+- Make the Ball and Add Strike buttons appear in the app's window as shown in the GIF below.
+- Add labels above the buttons as shown in the GIF below.
+- The buttons must work as follows: 
+    - The *Add Ball* button, when clicked adds a 1 to the Balls count label. If the count in the Balls count label ever reaches 4, then both the Balls count and Strikes count labels must be reset to 0.
+    - The *Add Strike* button, when clicked adds 1 to the Strikes count label. If the count in the Strikes count label ever reaches 3, then both the Balls count and Strikes count labels must be reset to 0.
+    - The labels should be updated to reflect the new ball/strike counts every time a button is clicked.
+<br/>
 
-## Documentation Requirements
+![ball-strike](images/ballstrike.gif)<br/>
 
-- Provide Javadoc comments in your *.java* files
-<br> -- Use the provided *BankAccount.java* for guidance with the class-level Javadoc and Javadocs for methods
-- Use standard Java comments that need to appear in the code body of a method, e.g., to explain non-obvious computations
-- Give self-documenting variable and method name
-<br>Use name completion in Eclipse, i.e., type Ctrl-Space, to keep typing cost low and readability high
-- Delete all of the TODO comments as you complete each TODO
-- Use Ctrl-Shift-F in Eclipse to format your code
+### Rubric
+This part of the assignment is worth 40.0 points. You will receive deductions for the following:<br/>
+| Item                                          | Point Value   |
+|-----------------------------------------------|---------------|
+| No help citation                              | -1.0          |
+| Insufficient documentation                    | -1.0          |
+| No Javadocs                                   | -2.0          |
+| Improper scaling/formatting of window         | -3.0          |
+| Number of strikes or balls is incorrect       | -5.0          |
+| Incorrect output upon pushing buttons         | -10.0         |
+| Strike button is nonfunctional or not present | -15.0         |
+| Ball button is nonfunctional or not present   | -15.0         |
+| Missing count                                 | -20.0         |
+| Academic dishonesty                           | -80.0         |
 
-## To Do:
-
-1. In Eclipse, import this project (HWLinearLightsOut) from your local copy of the CSSE220 repo
-2. Implement *Part 1 - Ball/Strike Counter*
-3. Implement *Part 2 - Linear Lights Out*
-3. Include Javadoc comments in for all your classes - see Documentation Requirements section (above)
-4. Each student uploads her or his completed *.java* files to the LinearLightsOut Dropbox
-
-## Part 1 - Individual Part: Ball/Strike Counter
-
-*Overview*
-
-- This part is to be done individually
-- Implement the code in the *ballStrikeCounter* package. In this starter project you have been give simple GUI framework for a program 
-that tracks balls and strikes for a baseball game. You need to add the buttons, ActionListeners, and variables necessary to make the code function correctly.
-You may add any new classes or make any changes you feel necessary. The method for properly displaying the label in the app has been provided 
-for you in the *updateLabel* method
-
-*Part 1 To Do*:
-1. Make the Ball and Add Strike buttons appear in the app's window as shown in the screenshot below
-2. The buttons must work as follows: 
-<br> -- The *Add Ball* button, when clicked adds a 1 to the Balls count label. If the count in the Balls count label ever reaches 4, then
-both the Balls count and Strikes count labels must be reset to 0
-<br> -- The *Add Strike* button, when clicked adds 1 to the Strikes count label. If the count in the Strikes count label ever reaches 3, then
-both the Balls count and Strikes count labels must be reset to 0
-<br> -- The labels should be updated to reflect the new ball/strike counts every time a button is clicked
-
- ![ball-strike](images/ballstrike.png)
-
+---
 
 ## Part 2 - Pair Part: Linear Lights Out
 *Working Together*
