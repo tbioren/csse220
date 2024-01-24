@@ -25,7 +25,7 @@ baseball game.
     - The labels should be updated to reflect the new ball/strike counts every time a button is clicked.
 <br/>
 
-![ball-strike](images/ballstrike.gif) <br/>
+![ball-strike](images/BallStrike.gif)<br/>
 
 ### Rubric
 This part of the assignment is worth 40.0 points. You will receive deductions for the following:
