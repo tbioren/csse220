@@ -41,7 +41,7 @@ This part of the assignment is worth 40.0 points. You will receive deductions fo
 | Ball button is nonfunctional or not present   | -15.0 pts     |
 | Missing count                                 | -20.0  pts     |
 
-## Part 2 - To be done in pairs
+## Part 2 - May be done in pairs
 
 ### Overview
 The goal of this assignment is to create a program that follows the following specifications:
